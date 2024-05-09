@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Guests;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Movie;
+use App\Models\TV;
 
 class PageController extends Controller
 {
