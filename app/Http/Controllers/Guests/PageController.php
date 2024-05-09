@@ -22,6 +22,7 @@ class PageController extends Controller
 
     public function tv_series ()
     {
-        return view('guests.tv_series');
+        $tv_series = TV::all();
+        return view('guests.tv_series',compact('tv_series'));
     }
 }
