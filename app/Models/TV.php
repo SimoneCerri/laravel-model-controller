@@ -5,7 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class TV extends Model
+class Tv extends Model
 {
-    use HasFactory;
+    /* use HasFactory; */
+    public $table = 'tvseries';
 }
